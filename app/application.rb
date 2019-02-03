@@ -27,9 +27,9 @@ class Application
         puts "added #{search_term} to cart"
       else
         puts "#{search_term} not in items."
-        
+
       end
-      
+
     else
       resp.write "Path Not Found"
     end
