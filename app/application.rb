@@ -29,7 +29,7 @@ class Application
      else
       resp.write "#{search_term} is not an item."
     end
-    
+
     else
       resp.write "Path Not Found"
     end
